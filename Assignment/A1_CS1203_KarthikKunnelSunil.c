@@ -78,4 +78,34 @@ int main() {
     }
     return 0;
 }
+// Sample Output 1:
+/*
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 1
+Give element: 10
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 1
+Give element: 20
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 3
+<- F 10 20 <- R
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 2
+Popped Value: 10
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 3
+<- F 20 <- R
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 0
+*/
 
+// Sample Output 2:
+/*
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 1
+Give element: 5
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 1
+Give element: 15
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 1
+Give element: 25
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 3
+<- F 5 15 25 <- R
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 2
+Popped Value: 5
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 3
+<- F 15 25 <- R
+0. exit, 1. insert, 2. delete, 3. print. Input Choice: 0
+*/
